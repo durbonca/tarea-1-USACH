@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <title>Tarea 1</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src="./assets/Imago Univ de Santiago 2016_2.jpeg"/>
+                <menu>
+                    <a href="#welcome">
+                        <li>
+                            bienvenido
+                        </li>
+                    </a>
+                    <a href="#welcome">
+                        <li>
+                            cosas interesantes
+                        </li>
+                    </a>
+                    <a href="#pilares"> 
+                        <li>
+                            mis personas favoritas                        
+                        </li>
+                    </a>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="slide" src="assets/slide1.jpeg" alt="mis nuevos amigos">
+                    </div>
+                    <div class="swiper-slide"><img class="slide" src="assets/slide2.png" alt="sere tu guia a internets"></div>
+                    <div class="swiper-slide"><img class="slide" src="assets/slide3.jpeg" alt="bonito fondo"></div>
+                    ...
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </section>
+            <section id="welcome">
+                <h1>bienvenido a las internets!!!</h1>
+                <p>este ews mi projecto de la tarea 1 de mi nuebo curso de diseñador frontend!!!
+                la idea de este curso es apender mucho y hacerme la lks aciendo paginas webs!!!</p>
+                <img src="./assets/gif/giphy.gif" alt="gato viaje">
+                <marquee style="color: red; background-color: blue; font-size: 32px;">si haces click en cualquier parte de mi pagina empieza la magia musical ;)</marquee>
+            </section>
+            <section id="pilares">
+                <h1 style="margin-bottom: 75px; text-align: center; width: 100%;">🇨🇱🇨🇱🇨🇱🇨🇱 Mis personas favoritas de Chile 🇨🇱🇨🇱🇨🇱🇨🇱</h1>
+                <div class="card">
+                    <img src="./assets/pilar1.webp" alt="don francisco">
+                    <h2>don francisco</h2>
+                    <p>
+                        alias: el cabeza de chancho, me gusta mucho porque me hace reir y siempre esta alegre, aunque los comunistas una vez lo hicieron llorar una vez :(
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./assets/pilar2.jpg" alt="marcianeque">
+                    <h2>marcianeque</h2>
+                    <p>
+                        Dimelo má
+                        Ando en busca de una criminal (ah, ah)
+                        Esa que el gatillo le gusta jalar (rata-ta)
+                        Que le guste flotar y fumar (brr)
+                        Tussi, keta quiere' mezclar
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./assets/pilar3.jpeg" alt="mojo jojo">
+                    <h2>la mojo jojo</h2>
+                    <p>
+                        escuchar a esta simpatica señora es como fue como oler perico ligado con el polvo que suelta la palometa peluda.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./assets/pilar4.jpeg" alt="don francisco">
+                    <h2>la cathi barriga</h2>
+                    <p>
+                        me gusta porque colecciona peluches como yo 💘
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            creado con amor por mi para mi clase de frontend (este es mi footer)
+        </footer>
+        <audio id="myAudio" >
+            <source src="assets/music.mp3" type="audio/ogg">
+        </audio>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</html>
